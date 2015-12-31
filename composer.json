@@ -1,0 +1,23 @@
+{
+    "name": "petfinder/reward",
+    "description": "",
+    "keywords": ["framework", "laravel", "lavalite", "Reward"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-0": {
+            "Petfinder\\Reward\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
