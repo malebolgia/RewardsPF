@@ -23,6 +23,7 @@ return [
                     'name'          => 'reward',
                     'table'         => 'rewards',
                     'model'         => 'Petfinder\Reward\Models\Reward',
+                    'permissions'   => ['admin'     => ['view', 'create', 'edit', 'delete']],                
                     'image'         =>
                         [
                         'xs'        => ['width' =>'60',     'height' =>'45'],
